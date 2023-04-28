@@ -23,7 +23,7 @@ public class Course {
 	@JsonIgnore
 	@ManyToMany(mappedBy = "course" )
 	//@JsonBackReference
-	Set<Students> students;
+	Set<Students> students; 
 	
 	public Integer getCourseid() {
 		return courseid;

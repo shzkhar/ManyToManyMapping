@@ -24,7 +24,7 @@ public class Students {
 	
 	
 	@ManyToMany(cascade = CascadeType.ALL)
-    @JoinColumn(name="courseid", referencedColumnName = "courseid")
+    @JoinColumn(name="courseid", referencedColumnName = "courseid") 
 	Set<Course> course;  
 	
 	
